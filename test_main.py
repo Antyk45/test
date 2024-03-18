@@ -1,12 +1,12 @@
 import os
 
-JOE = os.environ["joe"] 
+JP2 = os.environ["jp2"] 
 
 def test_1():
-  print(os.environ["joe"])
-  print(JOE)
   
-  if JOE == "Biden":
+  print(JP2)
+  
+  if JP2 == "2137":
     assert 2 == 2
     
   else:
