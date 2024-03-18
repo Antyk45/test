@@ -3,8 +3,8 @@ import os
 JOE = os.environ["joe"] 
 
 def test_1():
-  printf(os.environ["joe"])
-  printf(JOE)
+  print(os.environ["joe"])
+  print(JOE)
   
   if JOE == "Biden":
     assert 2 == 2
