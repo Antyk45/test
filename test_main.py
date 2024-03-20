@@ -1,6 +1,6 @@
 import os
 
-JP2 = os.environ["jp2"] 
+#JP2 = os.environ["jp2"] 
 
 def test_1():
   
