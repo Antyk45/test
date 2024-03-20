@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env: 
-  jp2: ${{ secrets.JP2 }}
+  JP2: ${{ secrets.JP2 }}
 
   
 jobs:
